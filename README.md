@@ -1,9 +1,22 @@
-This repo is a companion to the [You Don't Need That Library][course] course on Frontend Masters.
+# coffee-master-vanillaJS
 
-[![Frontend Masters](images/FrontendMastersLogo.png)][fem]
+This Single Page Application (SPA) is built entirely with **Vanilla JavaScript**, following a reactive programming pattern.
 
-[Please click here][website] to head to the course website.
+## Key Features
 
-[fem]: https://www.frontendmasters.com
-[website]: https://firtman.github.io/vanilla/
-[course]: https://frontendmasters.com/courses/vanilla-js-apps/
+### 🚀 Reactive State Management
+- State management is implemented using JavaScript `Proxy`, enabling automatic UI updates whenever state data changes.
+
+### 🧩 Custom Web Components
+- **Templates:** Defined within `index.html`.
+- **Reusable Components:** Organized in the `Components` directory.
+- **Encapsulation:** Components leverage the Shadow DOM for style isolation, modularity, and easy maintenance.
+
+### 🔀 Custom JavaScript Router
+- Lightweight client-side routing to dynamically load components without full-page reloads.
+- Seamless navigation handled through the browser's History API (`pushState`, `popstate`).
+- Supports dynamic routing with URL parameters (e.g., `/product-123`).
+- Automatically scrolls to the top of the page upon navigation for enhanced user experience.
+
+## Result
+This setup provides a modular, maintainable, and performant frontend experience without external libraries or frameworks.
