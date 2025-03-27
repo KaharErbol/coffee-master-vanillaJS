@@ -1,6 +1,10 @@
 # coffee-master-vanillaJS
 
 This Single Page Application (SPA) is built entirely with **Vanilla JavaScript**, following a reactive programming pattern.
+- Developed a Single Page Application (SPA) using Vanilla JavaScript, featuring a custom-built Router, State Management, Proxy, and Shadow DOM.
+- Created modular Web Components to improve scalability and maintainability.
+- Implemented dynamic cart functionality, enabling users to add items with instant badge updates reflecting quantities on the homepage without page refreshes.
+- Provided intuitive cart management, allowing users to remove items or submit orders seamlessly through an integrated checkout form.
 
 ## Key Features
 
